@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  EliteBase
+
+  Created by Jonathan Lu on 11/1/16.
+  Copyright © 2016 Eric Heitmuller. All rights reserved.
+*/
+
+"couponType.amount"   = "$%@ Off";
+"couponType.percent"  = "%@% Off";
+"couponType.balance"  = "$%@ Left";
+"networkErrorMessage" = "Could not reach Elite API, please check your internet connection";

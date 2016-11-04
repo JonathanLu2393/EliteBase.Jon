@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Braintree (4.7.1):
+    - Braintree/Card (= 4.7.1)
+    - Braintree/Core (= 4.7.1)
+    - Braintree/PayPal (= 4.7.1)
+    - Braintree/UI (= 4.7.1)
+  - Braintree/Card (4.7.1):
+    - Braintree/Core
+  - Braintree/Core (4.7.1)
+  - Braintree/PayPal (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.7.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.7.1)
+  - Braintree/UI (4.7.1):
+    - Braintree/Card
+    - Braintree/Core
+  - CVCalendar (1.4.0)
+  - MBProgressHUD (1.0.0)
+  - PromiseKit (4.0.4):
+    - PromiseKit/Foundation (= 4.0.4)
+    - PromiseKit/QuartzCore (= 4.0.4)
+    - PromiseKit/UIKit (= 4.0.4)
+  - PromiseKit/CorePromise (4.0.4)
+  - PromiseKit/Foundation (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.4):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Braintree
+  - CVCalendar (~> 1.4.0)
+  - MBProgressHUD
+  - PromiseKit (~> 4.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Braintree: c57bcb7983412530ea6d71cee4b99a4ba316c4ef
+  CVCalendar: ec1a06a508f99d8e5067258754f811a8a1433a3f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PromiseKit: 8e8ee39d33ff199d92a1a883b5396f6285be6c91
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: 775b9c02485318d2e3648ff83c80cafbe7d68296
+
+COCOAPODS: 1.1.1
